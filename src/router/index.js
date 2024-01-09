@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  linkActiveClass: 'Active',
   routes: [
     {
       path: '/',
@@ -18,6 +19,11 @@ const router = createRouter({
       name: 'poke',
       component: () => import('../views/PokeView.vue')
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: () => import('../views/NotFoundView.vue')
+    }
   ]
 })
 
