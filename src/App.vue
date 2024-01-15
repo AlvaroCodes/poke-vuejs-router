@@ -13,6 +13,7 @@ import Footer from './components/Footer.vue';
       <nav class="flex gap-x-3 pt-2 text-gray-500 dark:text-gray-400">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/pokemons">Pokemons</RouterLink>
+        <RouterLink to="/favorites">Favorites</RouterLink>
       </nav>
 
   </header>

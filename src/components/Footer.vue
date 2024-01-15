@@ -11,6 +11,10 @@
         <li>
             <RouterLink class="hover:underline me-4 md:me-6" to="/pokemons">Pokemons</RouterLink>
         </li>
+
+        <li>
+            <RouterLink class="hover:underline me-4 md:me-6" to="/favorites">Favorites</RouterLink>
+        </li>
        
     </ul>
     </div>
