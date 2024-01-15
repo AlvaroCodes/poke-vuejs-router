@@ -1,4 +1,4 @@
-# Simple Vue.js Router and Tailwind
+# Simple Vue.js Router, 🍍 Pinia and Tailwind
 
 "PokeVue" merges Vue.js and Tailwind CSS to create a sleek and functional web application. It features PokeAPI integration, advanced subroute management, and loading states, making it ideal for learning about modern routing and responsive design.
 
